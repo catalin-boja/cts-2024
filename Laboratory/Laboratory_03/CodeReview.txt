@@ -1,0 +1,28 @@
+Code review
+
+Stage I
+
+Naming conventions
+- names are in Romanian
+- names are not following java mixed Camel Case convention
+- a lot of names are meaning less - too generic
+
+The scope of the class and the function is not visible
+
+Stage II
+- code has magic numbers
+- simplify the if-else-if structure with a switch
+- use enums instead of magic numbers
+
+- there are repetitions in the math expressions (WET)
+
+Stage III
+- KISS - the function does more than 1 thing
+- we still have repeating code
+
+Stage IV
+- use enums as classes
+
+Stage V
+- the ProductDiscount class depends on different marketing strategies
+- apply SRP and DIP
