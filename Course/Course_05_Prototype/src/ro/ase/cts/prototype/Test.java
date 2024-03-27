@@ -8,6 +8,8 @@ public class Test {
 		SpaceShip spaceShip1 = new SpaceShip("Federation");
 		SpaceShip spaceShip2 = new SpaceShip("Federation");
 		
+		
+		SpaceShip spaceShip3 = (SpaceShip) spaceShip2.clone();
 		//using the Prototype
 //		SpaceShip spaceShip2 = (SpaceShip) spaceShip1.clone();
 //		SpaceShip spaceShip3 = (SpaceShip) spaceShip1.clone();

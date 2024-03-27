@@ -27,6 +27,8 @@ public class PrototypeFactory {
 		prototypes.put("asteroid", modelAsteroid);
 	}
 	
+
+	
 	//factory prototype method
 	public static Model3D getPrototype(String id){
 		Model3D prototypeCopy = null;
